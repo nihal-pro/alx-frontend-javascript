@@ -2,12 +2,13 @@
   "name": "my-project",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "build": "babel src -d dist",
     "start": "node dist/index.js",
-    "dev": "node 0-main.js"
+    "dev": "node 0-main.mjs"
   },
   "keywords": [],
   "author": "",
@@ -17,10 +18,10 @@
     "node-notifier": "^10.0.1",
     "ts-node": "^10.9.2"
   },
-  "type": "module",
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
-    "eslint": "^9.9.1"
+    "eslint": "^9.9.1",
+    "eslint-plugin-react": "^7.35.0"
   }
 }
