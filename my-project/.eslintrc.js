@@ -9,6 +9,14 @@ module.exports = {
       ecmaVersion: 12,
       sourceType: 'module',
     },
+    plugins: [
+        'react',
+      ],
+      settings: {
+        react: {
+          version: 'detect',
+        },
+      },
     rules: {
       // Add any custom rules you want here
       'no-console': 'warn',
