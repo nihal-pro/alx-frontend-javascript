@@ -1,1 +1,8 @@
-#!/usr/bin/node
+{
+  allEmployees: {
+     engineering: [
+          'John Doe',
+          'Guillaume Salva',
+     ],
+  },
+};
